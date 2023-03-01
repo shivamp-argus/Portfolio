@@ -17,9 +17,86 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="app.css" />
     <title>Portfolio</title>
   </head>
   <body>
+    <div class="container">
+      <!-- header -->
+      <header id="main-header">
+        <div class="row g-0">
+          <div class="col-lg-4 col-md-5">
+            <img src="images/person1.jpg" alt="profile-pic" class="img-fluid" />
+          </div>
+          <div class="col-lg-8 col-md-7 text-white">
+            <div class="d-flex flex-column">
+              <div class="p-5 text-white bg-dark">
+                <div class="d-flex justify-content-between align-items-center">
+                  <h1>Shivam Patel</h1>
+                  <div class="d-none d-md-block">
+                    <a href="#" class="text-white"
+                      ><i class="fa-brands fa-twitter"></i
+                    ></a>
+                  </div>
+                  <div>
+                    <a href="#" class="text-white"
+                      ><i class="fa-brands fa-github"></i
+                    ></a>
+                  </div>
+                  <div>
+                    <a href="#" class="text-white"
+                      ><i class="fa-brands fa-instagram"></i
+                    ></a>
+                  </div>
+                  <div>
+                    <a href="#" class="text-white"
+                      ><i class="fa-brands fa-whatsapp"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="p-5 bg-black">Experienced full stack developer</div>
+              <div>
+                <div class="d-flex text-white align-items-stretch text-center">
+                  <div
+                    class="port-item p-4 bg-primary"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#home"
+                  >
+                    <i class="fas fa-home fa-2x d-block pt-5"></i>
+                    <span class="d-none d-sm-block">Home</span>
+                  </div>
+                  <div
+                    class="port-item p-4 bg-success"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#resume"
+                  >
+                    <i class="fas fa-graduation-cap fa-2x d-block pt-5"></i>
+                    <span class="d-none d-sm-block">Resume</span>
+                  </div>
+                  <div
+                    class="port-item p-4 bg-warning"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#work"
+                  >
+                    <i class="fas fa-folder-open fa-2x d-block pt-5"></i>
+                    <span class="d-none d-sm-block">Work</span>
+                  </div>
+                  <div
+                    class="port-item p-4 bg-danger"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#contacts"
+                  >
+                    <i class="fas fa-envelope fa-2x d-block pt-5"></i>
+                    <span class="d-none d-sm-block">Contacts</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
     <!-- bootstrap scripts -->
     <script
       src="https://code.jquery.com/jquery-3.6.3.min.js"
